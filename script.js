@@ -1,4 +1,3 @@
-
 // Generar particulas
 document.addEventListener("DOMContentLoaded", function () {
   const particleContainer = document.querySelector(".particle-container");
