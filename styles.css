@@ -266,14 +266,37 @@ body::before {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .blur-box {
+    padding: 5px;
+  }
+
+  .banner-image img,
+  .benefits-image img,
+  .contact-image img,
+  .thank-you-content img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 12px;
+  }
+
   .hero-content {
     flex-direction: column;
     gap: 30px;
     text-align: center;
   }
 
+  .hero-text {
+    text-align: center;
+  }
+
   .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+
+  .hero-text p {
+    font-weight: 500; 
+    font-size: 20px;
   }
 
   .form-container {
@@ -284,6 +307,10 @@ body::before {
 
   .form-container h2 {
     font-size: 2rem;
+  }
+    .cta-button {
+    padding: 14px 35px;
+    font-size: 1.05rem;
   }
 }
 
@@ -363,41 +390,6 @@ body::before {
     transform: translateY(0);
   }
 }
-
-@media (max-width: 768px) {
-  .blur-box {
-    padding: 5px;
-  }
-
-  .banner-image img,
-  .benefits-image img,
-  .contact-image img,
-  .thank-you-content img {
-    width: 100%;
-    max-width: none;
-    height: auto;
-    border-radius: 12px;
-  }
-
-  .hero-text {
-    text-align: center;
-  }
-
-  .hero-text h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero-text p {
-    font-weight: 700; 
-    font-size: 20px;
-  }
-
-  .cta-button {
-    padding: 14px 35px;
-    font-size: 1.05rem;
-  }
-}
-
 
 .disclaimer {
   position: relative;
