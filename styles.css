@@ -388,6 +388,7 @@ body::before {
   }
 
   .hero-text p {
+    font-weight: 700; 
     font-size: 20px;
   }
 
