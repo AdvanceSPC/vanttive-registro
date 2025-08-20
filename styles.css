@@ -388,7 +388,7 @@ body::before {
   }
 
   .hero-text p {
-    font-size: 1.1rem;
+    font-size: 20px;
   }
 
   .cta-button {
@@ -506,3 +506,4 @@ body::before {
   background: transparent;
   z-index: 1;
 }
+
